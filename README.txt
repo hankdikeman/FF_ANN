@@ -2,3 +2,6 @@ This is a simple feedforward artificial neural network implementation to be used
 
 Author: Henry Dikeman
 email: dikem003@umn.edu
+
+Python dependencies:
+Numpy **v**
