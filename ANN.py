@@ -26,3 +26,11 @@ class ANN:
 	@staticmethod
 	def activation(x):
 		return np.tanh(x)
+
+	def train(self, train_data, epochs, batchsize):
+		pass 
+
+	# cross-entropy loss function
+	@staticmethod
+	def xe_loss(prediction_matrix, training_label):
+		return -1 * training_label * np.log(prediction_matrix)
